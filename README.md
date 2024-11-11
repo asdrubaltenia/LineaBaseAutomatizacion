@@ -1,1 +1,1 @@
-Proyecto con patro de doiseño page object model POM (Selenium, java, cucumber)
+Proyecto diseñado con patron de diseño page object model POM (Selenium, java, cucumber) para bootcamp Codig Dojo Latam
