@@ -2,9 +2,12 @@
 @formulario @coding @paraguay
 Feature: Formulario
 
-  @regresiva
-  Scenario: Validar flujo de formulario
+  @1 @codingdojo @regresiva
+  Scenario: Validar cajas de texto nombre y apellido correctamente
     Given ingreso a pagina web
-    When se ingresa texto "Juan Rafael" en campo full name
-#    And se presiona boton
-#    Then se valida ingreso de texto en campo full name
+    When se ingresa nombre "Haidet" en campo first name
+    And se ingresa apellido "Navarro" en campo last name
+    Then se valida valor ingresado en campo first name
+    And se valida valor ingresado en campo last name
+
+    asasas
