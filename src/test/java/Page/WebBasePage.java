@@ -1,6 +1,4 @@
 package Page;
-
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
@@ -27,7 +25,6 @@ import java.util.*;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 import static org.openqa.selenium.By.tagName;
-
 public class WebBasePage {
 
     final WebDriver driver;
@@ -370,7 +367,7 @@ public class WebBasePage {
         return elementP.getText();
     }
 
-    private void waitUntilElementIsVisible(WebElement elementP) {
+    void waitUntilElementIsVisible(WebElement elementP) {
     }
 
     public String getH2ElementText(String text){
